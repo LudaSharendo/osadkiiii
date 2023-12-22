@@ -27,7 +27,7 @@ void read(const char* file_name, weather* array[], int& size)
             file >> tmp_buffer;
             item->weather_date = convert(tmp_buffer);
             file >> item->weather_volume;
-            // file.read(tmp_buffer, 1); // чтения лишнего символа пробела
+            file.read(tmp_buffer, 1); // чтения лишнего символа пробела
             file.getline(item->weather_type, MAX_STRING_SIZE);
             array[size++] = item;
         }

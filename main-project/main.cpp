@@ -43,5 +43,6 @@ int main()
     {
         cout << error << '\n';
     }
+    cout << "Group: 23_Ping\n";
     return 0;
 }

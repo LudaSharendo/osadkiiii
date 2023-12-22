@@ -9,10 +9,10 @@ struct date
     int month;
 };
 
-struct wheather
+struct weather
 {
-    float volume;
-    char wheather_type[MAX_STRING_SIZE];
-    date data;
+    float weather_volume;
+    char weather_type[MAX_STRING_SIZE];
+    date weather_date;
 };
 #endif

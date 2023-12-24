@@ -2,7 +2,7 @@
 #define WEATHER_H
 
 #include "constants.h"
-
+//типы данных
 struct date
 {
     int day;

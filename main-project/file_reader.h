@@ -4,6 +4,6 @@
 
 #include "weather.h"
 
-void read(const char* file_name, weather* array[], int& size);
+void read(const char* file_name, weather* array[], int& size);//чтение данных из файла и помещение их в массив, обновляется размер
 
 #endif

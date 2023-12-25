@@ -4,7 +4,7 @@ using namespace std;
 #include "file_reader.h"
 #include "constants.h"
 #include "weather.h"
-#include <Filter.h>
+#include "Filter.h"
 
 void print_data(weather* subscriptions[], int id)
 //выводим данные о погоде из массива

@@ -11,8 +11,9 @@ struct date
 
 struct weather
 {
+    date weather_date;
     float weather_volume;
     char weather_type[MAX_STRING_SIZE];
-    date weather_date;
+    
 };
 #endif
